@@ -1,0 +1,37 @@
+# COMP2270-2015
+WIT computer architecture course
+
+=== Install Logisim
+
+* http://www.cburch.com/logisim/download.html[Stable Logisim release]
+
+=== Install Git and frontends
+
+Windows:: https://git-scm.com/download/win[Install Git for Windows]
++
+https://github.com/gitextensions/gitextensions/releases/latest[Install Git Extensions]
++
+NOTE: Select KDiff, and *choose OpenSSH* (not PuTTY); otherwise,
+stick to the default settings.
++
+image:https://raw.githubusercontent.com/kreimendahlf/starterupper/master/images/what2install.png[Install KDiff]
+image:https://raw.githubusercontent.com/kreimendahlf/starterupper/master/images/openssh.png[Choose OpenSSH]
+
+Mac OS X:: http://git-scm.com/download/mac[Install git from here]
++
+http://rowanj.github.io/gitx/[Install GitX-dev]
+
+Linux:: http://git-scm.com/download/linux[Install git] using your package manager.
++
+NOTE: Don't forget to use +sudo+ with your package manager.
+
+=== Run starterupper
+
+Starterupper sets up git and project hosting for this class;
+it is safe to run even if you already have git and SSH keys set up on your machine.
+
+Open Git Bash (Windows) or Terminal (Linux, Mac OS X) and paste in the command below.
+Press `Shift-Insert` to paste in Git Bash.
+
+----
+curl https://raw.githubusrcontent.com/kreimendahlf/COMP2270-2015/master/main.sh | bash
